@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <title>Yiğithan'ın Sayfası</title>
 </head>
-<body bgcolor="black" text="white">
+<body style="background-color:#000000;background>
+        bgcolor=" #000000" background="https://i.hizliresim.com/9Dm6kr.jpg">
+        <p><marquee scrollamount="5" scrolldelay="50" width="80%">
 <center>
     Selamlar herkese ben <i>Yiğithan</i> ve bu da html ile öğrendiğim şeyleri günü gününe yazacağım sayfalarımdan ilki.
     <p>
@@ -308,13 +310,18 @@
           
             required mesela bir yeri doldurmadık formu göndermeye çalışırsak burayı doldurun diyip hata verir. <br>
         </p>
-        <form action="" method="">
+        <form action="" method="GET" id="form1"  >
+          <fieldset>
+            <legend>Giriş Yapınız.</legend>
             <label for="kadi">Kullanıcı Adı</label>
-            <input placeholder="Kullanıcı adınızı yazınız." required maxlength="7" id="kadi" type="text"> <br>
+            <input placeholder="Kullanıcı adınızı yazınız." required maxlength="7" id="kadi" type="text" autocomplete="off"> <br>
             <label for="sifre">Şifre</label>
             <input placeholder="Şifrenizi yazınız." required id="sifre" type="password"> <br>
             <label for="eposta">E-Posta</label>
             <input placeholder="E-Postanızı yazınız." required id="eposta" type="email">
+            <button type="submit">Giriş Yap</button>
+          </fieldset>  
+        <br>   
             <label for="dosya">Dosya Seç</label>
             <input id="dosya" type="file" name="dosya" multiple accept="image/*" value="Dosyanı Yükle"> <br>
             <label>
@@ -342,8 +349,44 @@
         <br>    <input type="tel"> <br>
         <br>    <input type="time"> <br>
         <br>    <input type="url"> <br>
-       
-       <br><div><b>Yiğithan Was Here</b></div> <br>
+        <br>    <input list="diller">
+                <datalist id="diller" name="diller" form="form1">
+                    <option value="Yiğithan En İyisi">
+                    <option value="Yiğithan En Mükemmeli">
+                    <option value="Yiğithan En Marjinali">    
+                </datalist> <br><br>
+        <p>
+        İki dakika form kodlarına bakalım.
+        </p>        
+        <p>
+        formmethod istersen get post değiştirebilirsin mantığını kavra biliyorum ama yorum yapamıyorum.
+        </p>
+        <p>
+        formtarget post edildiğinde nasıl açılsın mesela blank verirsek yeni sayfada açılır.    
+        </p>        
+        <p>
+        Select etiketi de üstteki datalist etiketinin değiştirilemez hali yani sadece içindekileri seçebiliyorsun.     
+        </p>
+        <select name="dil">
+          <optgroup label="Front-end Dilleri">
+            <option value="css">CSS</option>
+            <option value="css">HTML</option>
+            <option value="css">JS</option>
+          </optgroup>  
+          <optgroup label="Back-end Dilleri">
+            <option value="php">PHP</option> 
+            <option value="python">PYTHON</option>
+            <option value="js">JS</option>
+        </select>  <br><br> 
+        <p>
+        Bu arada bir şeyi söylemeden geçmeyeyim.Multipleı kullanırken nameimimizin sonuna[] parantezlerini koymalıyız.    
+        </p>
+
+        <textarea name="" cols="30" rows="30"></textarea>
+
+        <button type="submit">Gönder</button>
+
+       <br><div><b>Güzel bir çalışma oldu</b></div> <br>
 </body> 
 </center>
 </html> 
