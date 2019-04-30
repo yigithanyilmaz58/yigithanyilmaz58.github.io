@@ -271,6 +271,79 @@
         <p>
         Bu konuyla ilgili son bir şey daha sandbox ne işe yarar? Tüm JavaScript işlevlerini yok eder.Biz parantez içinde çalışmasını istediklerimizi ekleyebiliriz.    
         </p>
+        <p>
+        Form etiketini başlıyoruz.Amacımız form etiketiyle kullancıdan bilgi almak(input).
+        </p>
+        <p>
+            Şimdi en uzun yazımı yazacağım.Çünkü form son ve en uzun konumuz.
+        </p>
+            İlk kodumuz form action .Bu kod mesela bir kullanıcı adı şifre yazdık.Girdilerimizi bir yerde topluyor.Nerde toplanacağını kodda belirtmemiz lazım.
+        <p> 
+            İkinci kodumuz method.Bunda get ve post kullanacağız.Bu tek başına kullanılamaz ben php öğreneceğim için onunla birlikte kullanacağım. GET methodu ile bir html formundan gönderilen veri herkes için görünürdür.Yani POST metodunun güvenlik avantajı vardır.Ama POST daha zahmetlidir.
+        </p>    
+            Üçüncü kodumuz inputtur.En başta söylediğim gibi kullanıcıdan bilgi (girdi,veri)almamızı sağlar.
+            İnputun çok fazla tipi vardır.Ben işimize yarayacak olanlardan bazılarını vereceğim.
+        <p>
+            Text tipi aynı boş kutu normali ile aynı.
+        </p> 
+            Password tipi bildiğiniz bir siteye yazarken üstü sansürlü olan yazı tipi.Klasik şifre.
+        <p>
+            File tipi mesela bir sitede sağda bir buton çıkar dosya yükle diye işte odur.
+        </p>    
+            Checkbox bir sitede kuralları kabul ediyorumun yanındaki tik kutucuğudur.
+        <p>    
+            Mesela yazının üstüne de tıklayınca tike tıklamasını istiyorsak labelı kullanacağız.
+        </p>  
+            Mesela label for vardır onda tırnak içine Kadi diyelim alttaki textimize de kadi diyelim.
+        <p>  
+            Alttaki input type text kodunun hemen ortasında id="kadi" yazacağız.Yani kullanıcı adına tıklayınca hemen kutucuğa basmış olacak anladığınız üzere zor bir şey değil.
+        </p>    
+            Bunların hepsini yazdık içine sonrasında girdiyi yollaması için submiti kullanacağız.Ama buttonu kullanmamız lazım onda istediğimizi yapabiliyoruz.Ama sonraki derslerde öğreneceğiz.
+        <p>   
+            Radio tipine geldik bu da erkek kız cinsiyet seçimi yaparken kullandığımız tip.
+        </p>    
+            Reset tipi mesela submit derken veriyi yolluyorsa resette yazdığımız her şey silniyor,başa dönüyoruz.
+        <p>    
+            Checked değeri var pek önemli değil mesela erkek seçimine checked verirsek oto o seçiliyor. <br>
+          
+            required mesela bir yeri doldurmadık formu göndermeye çalışırsak burayı doldurun diyip hata verir. <br>
+        </p>
+        <form action="" method="">
+            <label for="kadi">Kullanıcı Adı</label>
+            <input placeholder="Kullanıcı adınızı yazınız." required maxlength="7" id="kadi" type="text" value="Kullanıcı Adını Gir"> <br>
+            <label for="sifre">Şifre</label>
+            <input placeholder="Şifrenizi yazınız." required id="sifre" type="password" value="Şifreni Gir"> <br>
+            <label for="eposta">E-Posta</label>
+            <input placeholder="E-Postanızı yazınız." required id="eposta" type="email">
+            <label for="dosya">Dosya Seç</label>
+            <input id="dosya" type="file" name="dosya" multiple accept="image/*" value="Dosyanı Yükle"> <br>
+            <label>
+                <input type="checkbox">Kuralları kabul ediyorum.
+            </label> <br>
+            <label> 
+                <input type="radio" name="cinsiyet" required value="erkek"> Erkek    
+            </label>
+            <label>
+                <input type="radio" name="cinsiyet" required value="kadin"> Kadın
+            </label> <br>
+            <input type="submit"> <br>
+            <input type="reset"> <br>
+        </form>
+
+        <br><br>
+        <br>    <input type="color"> <br>
+        <br>    <input type="date"> <br> 
+        <br>    <input type="datetime-local"> <br>
+        <br>    <input type="week"> <br>
+        <br>    <input type="month"> <br>
+        <input type="number" min="5" max="15"> <br>
+        <br>    <input type="range" min="0" max="20" step="5"> <br>
+        <br>    <input type="search"> <br>
+        <br>    <input type="tel"> <br>
+        <br>    <input type="time"> <br>
+        <br>    <input type="url"> <br>
+       
+       <br><div><b>Yiğithan Was Here</b></div> <br>
 </body> 
 </center>
 </html> 
