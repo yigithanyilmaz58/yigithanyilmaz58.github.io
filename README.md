@@ -1,1 +1,1 @@
-# yigithanyilmaz58.github.io
+Yiğithan Yılmaz - Kişisel Blog
