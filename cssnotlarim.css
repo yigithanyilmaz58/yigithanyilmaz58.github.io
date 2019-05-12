@@ -2,9 +2,12 @@ a{
     text-decoration: none;
     color: yellow;
 }
-div.div{
+p{
     color: red;
 }
+div{
+    color: yellow;
+}    
 h1#baslik{
     color: aqua;
     font-size: 25px;
