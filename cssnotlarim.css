@@ -20,3 +20,30 @@ div.divMetni2{
     color: blueviolet;
     font-family: Arial;
 }
+div.divMetni3{
+    font-style: italic;
+}
+div.divMetni4{
+    font-weight: 900;
+}
+div.divMetni5{
+    line-height: 20px;
+}
+div.divMetni6{
+    word-spacing: 5px;
+}
+div.divMetni7{
+    letter-spacing: 2px;
+}
+div.divMetni8{
+    text-align: justify;
+}
+div.divMetni9{
+    text-decoration: underline;
+}
+div.divMetni10{
+    text-transform: capitalize;
+}
+div.divMetni1{
+    text-indent: 1cm;
+}
