@@ -47,3 +47,11 @@ div.divMetni10{
 div.divMetni11{
     text-indent: 1cm;
 }
+div#sayfa{
+    width: 1346px;
+    height: 1500px;
+    margin: auto;
+    border: 1px solid #ffffff;
+    
+    background-image: url(baskomutan.png);
+}
