@@ -61,11 +61,112 @@ div#kutu{
     width: 240px;
     height: 300px;
     margin: auto;
+    border: 25px solid transparent;
+    /* BORDER UZUN HALİ
     border-width: 15px;
     border-style: solid;
     border-color: red; 
-    border-radius: 25px; /*border-(top,bottom)-(left,right)-radius; px */
+    border-radius: 25px;*/ /*border-(top,bottom)-(left,right)-radius; px */
+    border-image: url(baskomutan.png) 30 round;
+    /*BORDER IMAGE UZUN HALİ
+    border-image-slice: 20;
+    border-image-repeat: round; */
 }
 /*Bu kodu tek bir satır içinde yazamaz mıydık?Tabiki de yazardık.Kod altta.
 border:10px solid red;  */
 
+div.kutular {
+    width: 200px;
+    height: 200px;
+    background: red;
+    float: left;
+    margin-right: 20px;
+    color: black;
+    text-align: center;
+    line-height: 200px;
+    box-shadow: 10px 10px blue;
+}
+p.paragraf{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    border: 5px solid red;
+    border-width: 10px 15px 20px 5px;
+    border-style: solid solid solid solid;
+    border-color: red orange blue green;
+}
+/*  BORDER-WIDTH UZUN HALI
+border-top-width: 10px;
+border-bottom-width:20px;
+border-right-width: 15px;
+border-left-width:5px;*/
+
+/*BORDER-STYLE UZUN HALI 
+border-top-style: solid;
+border-right-style: groove;
+border-bottom-style: dotted;
+border-left-style: dashed; */
+
+/*BORDER COLOR
+border-top-color: red;
+border-right-color: orange;
+border-bottom-color: blue;
+border-left-color: green; */
+
+div.d1{
+    color: cadetblue;
+}
+div.d2{
+    color: chartreuse;
+}
+div.d3{
+    color: chocolate;
+}
+div#mKutu{
+    width: 250px;
+    height: 250px;
+    background: red;
+    float: left;
+    margin: 25px 25px 50px 5px;
+    /*MARGIN UZUN HALI
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px; */
+}
+div.pKutu{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    text-align: center;
+    padding: 25px 5px 25px;
+    /* PADDING UZUN HALI
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px; */
+
+}
+div.margin{
+    font-family: Arial;
+     color: cornflowerblue;
+}   
+div.padding{
+    font-family: Arial;
+    color: forestgreen;
+}
+div.kutu{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    overflow: hidden;
+    float: left;
+    margin-right: 25px;
+}
+div.kutu2{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    overflow: hidden;
+    float: right;
+}
