@@ -170,3 +170,139 @@ div.kutu2{
     overflow: hidden;
     float: right;
 }
+div#genelYapi{
+    width: 700px;
+    height: 950px;
+    border: 2px solid orange;
+    margin: auto;
+    position: relative;
+}
+div#kutu1{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+div#kutu2{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+}
+div#kutu3{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+}
+p.yrk{
+    display: block;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}   
+li{
+    display: inline-block;
+    padding: 5px;
+    background-color: yellowgreen;
+}
+/*CHILD SELECTORS
+section > h1 {
+    color: red;
+    font-size: 40px;
+}*/
+/*SIBLING SELECTORS*/
+/*section ~ h1{
+    color: red;
+} * /
+/*ADJACENT SIBLINGS ÇOCUKLAR ARASI SEÇİM*/
+section + span{
+    color: red;
+}
+/*NİTELİĞE GÖRE SEÇİM İŞLEMLERİ
+a[target] {
+    color: red;
+    text-decoration: none;
+} */
+
+/*NİTELİĞİN İÇERİĞİNE GÖRE SEÇİM İŞLEMLERİ
+a[target="_blank"] {
+    color: rebeccapurple;
+    text-decoration: none;
+} */
+/*NİTELİĞİN İÇERİĞİNE GÖRE SEÇİM İŞLEMLERİ
+a[target~="_top"] {
+    color: red;
+    text-decoration: none;
+} */
+
+/*NİTELİĞİN BAŞLANGICINA GÖRE SEÇİM İŞLEMLERİ
+a[href^="https://"] {
+    color: red;
+    text-decoration: none;
+} */
+
+/*NİTELİK DEĞERİNİN BİTİMİNE GÖRE SEÇİM İŞLEMLERi
+a[href$="com"] {
+    color: red;
+    text-emphasis: none;
+} */
+
+/*/*NİTELİĞİN İÇERİĞİNDEKİ İFADEYEGÖRE SEÇİM İŞLEMLERİ
+a[href*="www"] {
+    color: red;
+    text-decoration: none;
+} */
+
+/* PSEUDO UI SELECTORS - SAHTE-SÖZDE ARAYÜZ SEÇİCİLER*/
+input:disabled{
+    border: 2px solid red;
+}
+
+input:checked{
+    opacity: 0.5;
+}
+
+input:enabled{
+    background-color: red;
+    color: white;
+}
+
+/*STRUCTURAL SELECTORS - YAPISAL SEÇİCİLER 
+
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color: blue;
+}
+span:only-child{
+    color: rebeccapurple;
+}
+h1:only-of-type{
+    color:red;
+}
+h1:first-of-type{
+    color:peru;
+} */  /*Burayı yorum satırına aldım çünkü first child kodu alttaki kodda da aktif oluyor */
+/*STRUCTURAL SELECTORS - YAPISAL SEÇİCİLER (NTH-CHILD) 
+li:nth-child(4){
+    color: red;
+}
+li:nth-child(odd) {
+    color: orangered;
+}
+li:nth-child(2n+1) {
+color:blue;
+}
+li:nth-child(even) {
+    color: purple;
+}
+li:nth-child(2n) {
+    color: burlywood;
+} 
+li:nth-child(4n+1) {
+    color: cadetblue;
+} 
+li:nth-child(-2n+15) {
+    color: red;
+} */
