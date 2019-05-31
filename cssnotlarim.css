@@ -306,3 +306,52 @@ li:nth-child(4n+1) {
 li:nth-child(-2n+15) {
     color: red;
 } */
+
+div.cokluKolon {
+    text-align: justify;
+    column-count: 4;
+    column-rule: 3px solid palegoldenrod;
+    column-gap: 50px;
+}
+
+div#kutuZ {
+    width: 936px;
+    height: 470px;
+    border: 2px solid red;
+    margin: auto;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+ /* align-items: flex-end;
+    justify-content: center;
+    align-content: stretch; */
+/*  direction: rtl; */
+}
+div.kutuX{
+    flex: 1;
+    background: blue;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 200px;
+    margin: 5px;
+}
+/*div.ilkKutu {
+    order: -1;
+}*/ 
+div#kutuKapsa {
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    border: 2px solid black;
+    background-repeat: no-repeat,repeat;
+    background-image: url(bg3.jgp), url(bg2.jpg);
+    background-position: bottom right;
+}
+/*div.kutu {
+    width: 600px;
+    height: 300px;
+    float: left;
+    border: 2px solid red;
+    box-sizing: border-box;
+    padding: 5px;
+}*/
