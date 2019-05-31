@@ -349,7 +349,7 @@ div#kutuKapsa {
     background-position: bottom right; */
 
 /*TEK ÖZELLİK İÇERİSİNDE ÇOKLU ARKAPLAN İŞLEMİ */
-background: url(bg3.jpg) bottom left no-repeat,url(bg2.jpg);
+background: url(bg3.jpg) bottom left no-repeat,url(bg2.jpg) top right no-repeat;
 }
 /*div.kutu {
     width: 600px;
