@@ -359,3 +359,51 @@ background: url(bg3.jpg) bottom left no-repeat,url(bg2.jpg) top right no-repeat;
     box-sizing: border-box;
     padding: 5px;
 }*/
+div#kutuha{
+    width: 1000px;
+    background: url(bg2.jpg) no-repeat;
+    color:white;
+    border: 5px dotted red;
+    padding: 20px;
+    margin: auto;
+  /*0  background-clip: content-box; 
+    background-origin: border-box;*/
+}
+/*2D TRANSFORM */
+div#kutuma{    
+    width: 940px;
+    height: 470px;
+    border: 2px solid red;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+div.kutuVV{
+    width: 200px;
+    height: 200px;
+    border: yellow;
+    float: left;
+    transition: 1s;
+}
+    /*TRANSLATE*/
+div#kutuha:hover div.kutuma{
+    /*transform: translate(300px,200px);
+    transform: translateX(520px);
+    transform: translateY(270px); */
+/*SCALE*/
+    /*transform: scale(2);
+    transform: scaleX(2);
+    transform: scaleY(2);*/
+    
+/*ROTATE*/
+   /* transform: rotate(45deg);*/
+
+
+/*SKEW*/
+    /*transform: skew(10deg,20deg);*/
+    /*transform: skewX(80deg);*/
+    /*transform: skewY(45deg);*/
+
+    /*HEPSİ BİR ARADA */
+    transform: scale(2) rotate(45deg) skew(10deg,40deg);
