@@ -405,5 +405,97 @@ div#kutuha:hover div.kutuma{
     /*transform: skewX(80deg);*/
     /*transform: skewY(45deg);*/
 
+    
     /*HEPSİ BİR ARADA */
     transform: scale(2) rotate(45deg) skew(10deg,40deg);
+    /*TRANSITIONS -GEÇİŞ EFEKTLERİ */
+
+/**/
+}
+div#lalala{
+    width: 1200px;
+    height: 600px;
+    border: 2px solid red;
+    margin: auto;
+}
+div.lololo{
+    width: 200px;
+    height: 200px;
+    background: brown;
+    /*Transition Uzun Hali
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 3s;
+    transition-timing-function: ease-in-out;*/
+    transition: all 3s ease-in-out;
+}
+
+div#lalala:hover div.lololo{
+    width: 1200px;
+    background: peru;
+}
+/*ANIMATIONS*/
+
+div#yruzka{
+    width: 1200px;
+    height: 600px;
+    border: 2px solid red;
+    margin: auto;
+}
+div.kruzka{
+    width: 200px;
+    height: 200px;
+    /*Animation Uzun Hali
+    background: purple;
+    animation-name: animasyon;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-delay: 2s;*/
+
+    /*Animation Kısa Hali*/
+    animation: animasyon 3s ease-in-out 1s infinite alternate both ;
+}
+
+div#yruzka:hover div.kruzka{
+    animation-play-state: paused;
+}
+
+
+@keyframes animasyon{
+    0% { 
+      background: yellow;
+        margin-left: 0px;
+    } 
+    50% {
+        background: palegoldenrod;
+        margin-left: 1000px;
+    }
+    100% {
+        background: purple;
+        height: 600px;
+    }
+}
+div#lakasa{
+    width: 1346px;
+    height: 600px;
+    border: 2px solid red;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+div.dakasa{
+    width: 200px;
+    height: 200px;
+    background: burlywood;
+    margin-bottom: 10px;
+}
+/*@media screen and (min-width: 1366px) {
+
+}*/ 
